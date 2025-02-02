@@ -5,11 +5,11 @@ Questions:
 
 1. 128.3 MB 
 
-    - I found this number by looking at the csv size of yellow_tripdata_2020-12.csv in my Gcloud bucket.
+    - I found this number by disabling the purge file task in the '06_gcp_taxi' kestra flow.  Then i looked at the output files after execution of yellow 2020-12.
 
 2. green_tripdata_2020-04.csv
 
-    - In the videos this week we learned rendered means the values within the string are inserted. This means that this is the correct format for the files found on github.
+    - In the videos this week we learned rendered means the variables within the string are inserted. This means that this is the correct format for the files found on github.
 
 3. 24,648,499
     
