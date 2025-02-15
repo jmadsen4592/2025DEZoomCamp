@@ -20,7 +20,7 @@ with trips_data as (
     sum(improvement_surcharge) as revenue_monthly_improvement_surcharge,
     sum(total_amount) as revenue_monthly_total_amount,
 
-    -- Additional calculations
+    -- Additional calculations -
     count(tripid) as total_monthly_trips,
     avg(passenger_count) as avg_monthly_passenger_count,
     avg(trip_distance) as avg_monthly_trip_distance
