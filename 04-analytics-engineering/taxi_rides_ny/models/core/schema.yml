@@ -18,15 +18,6 @@ models:
             - not_null:
                 severity: error
       
-  - name: fct_taxi_trips_quarterly_revenue
-    description: >
-      Aggregated table of all taxi trips corresponding to both service zones (Green and yellow) per pickup zone, month and service.
-    columns:
-      - name: quarterly_revenue
-        description: Quarterly sum of the the total_amount of the fare charged for the trip
-        tests:
-            - not_null:
-                severity: error
 
   - name: fact_trips
     description: >
