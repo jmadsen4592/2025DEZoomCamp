@@ -13,7 +13,7 @@ with trips_data as (
     WHERE 
         fare_amount > 0
         and trip_distance > 0
-        and payment_type_description in ('Cash', 'Credit Card')
+        and payment_type_description in ('Cash', 'Credit card')
         and year in (2019, 2020)
 )
 select
