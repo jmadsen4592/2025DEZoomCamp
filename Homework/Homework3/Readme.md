@@ -61,4 +61,4 @@ Question 8: False
   if your data size is less than 1gb than clustering does not improve performance and might actually worsen it.
 
 Question 9: 0 MB  
-  I believe this would be because the number of rows in the table is already cached, therefore it doesnt need to count all the rows with a query and can instead return that number.
+  I believe this would be because the number of rows in the table is already cached, therefore it doesnt need to count all the rows with a query and can instead return that number. 
